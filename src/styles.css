@@ -1,0 +1,93 @@
+main {
+  font-family: "Cairo", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overscroll-behavior: none;
+}
+
+nav {
+  box-shadow: 0 0 10px #ddd;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.meeting-img {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .meeting-img {
+    width: 75%;
+  }
+}
+
+.card {
+  box-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 25%);
+}
+
+.card img:hover {
+  transform: rotate(2deg) scale(1.1);
+}
+
+.card img {
+  transition: 0.3s;
+}
+
+.story {
+  width: 75%;
+}
+
+@media (max-width: 1200px) {
+  .story {
+    width: 100% !important;
+  }
+}
+
+.footer-logo {
+  width: 25%;
+}
+.footer-logo img {
+  width: 100px;
+}
+
+footer h4 {
+  min-width: max-content;
+}
+
+@media (max-width: 1024px) {
+  .footer-logo {
+    width: fit-content;
+  }
+  .footer-logo img {
+    width: 75%;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-links {
+    flex-direction: column !important;
+  }
+  .link-group {
+    display: inline-block !important;
+  }
+  .link-group a {
+    padding-right: 1rem;
+    padding-top: 1rem;
+    min-width: max-content;
+  }
+}
+
+.partner-img {
+  transition: 0.3s;
+}
+
+.partner-img:hover {
+  transform: scale(1.5);
+}
